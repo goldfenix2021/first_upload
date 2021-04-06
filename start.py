@@ -1,3 +1,3 @@
 import os
 
-os.system('bash ./update.sh')
+resu = os.system('bash ./update.sh')
