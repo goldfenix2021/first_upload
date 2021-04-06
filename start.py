@@ -6,4 +6,5 @@ def run():
   return resu
 
 
-run()
+resu = run()
+print(resu)
