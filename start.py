@@ -1,4 +1,5 @@
 import os
 print('start.py')
-resu = os.system('bash ./update.sh')
-print(resu)
+def run():
+  resu = os.system('bash ./update.sh')
+  return resu
